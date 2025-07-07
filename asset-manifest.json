@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sharent/static/css/main.0c30197f.css",
+    "main.js": "/sharent/static/js/main.e11910f4.js",
+    "static/media/logo.png": "/sharent/static/media/logo.66d103780914c2985779.png",
+    "index.html": "/sharent/index.html",
+    "main.0c30197f.css.map": "/sharent/static/css/main.0c30197f.css.map",
+    "main.e11910f4.js.map": "/sharent/static/js/main.e11910f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c30197f.css",
+    "static/js/main.e11910f4.js"
+  ]
+}
