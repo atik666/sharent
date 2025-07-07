@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+
+# Build artifacts
+build/
+dist/
+*.log
+
+# Environment files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# macOS / Linux specific
+.DS_Store
+Thumbs.db
