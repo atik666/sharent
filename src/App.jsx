@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "./assets/logo.png";
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -66,7 +67,7 @@ export default function App() {
           <div className="flex items-center space-x-2">
             {/* Replace src with your actual logo URL or local path */}
             <img
-              src="assets/logo.png" // ← Replace this with your own logo URL or use /logo.png if using local file
+              src={logo} // ← Replace this with your own logo URL or use /logo.png if using local file
               alt="Sharent Logo"
               className="w-8 h-8 md:w-10 md:h-10"
             />
@@ -227,7 +228,7 @@ export default function App() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <img
-                  src="assets/logo.png" // ← Replace this with your own logo URL or use /logo.png if using local file
+                  src={logo} // ← Replace this with your own logo URL or use /logo.png if using local file
                   alt="Sharent Logo"
                   className="w-8 h-8"
                 />
